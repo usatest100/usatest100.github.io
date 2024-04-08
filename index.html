@@ -264,28 +264,6 @@
     </div>
   </footer>
 
-<script>
-    // Function to check if dark mode is supported
-    function isDarkModeSupported() {
-      // Use the matchMedia method to check if dark mode is supported
-      return window.matchMedia('(prefers-color-scheme: dark)').matches;
-    }
-
-    // Function to initialize local storage based on user system
-    function initializeLocalStorage() {
-
-      // Check if dark mode is supported and not set in local storage
-      if (isDarkModeSupported() && localStorage.getItem('isDark') === null) {
-        // Set the initial value in local storage
-        localStorage.setItem('isDark', 'enabled');
-      }
-    }
-
-    // Call the initialization function
-    initializeLocalStorage();
-  </script>
-
-
   <script src="/js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
