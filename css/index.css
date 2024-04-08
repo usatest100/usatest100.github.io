@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb,
   box-shadow: 12px 24px 50px 0 rgba(0, 0, 0, 0.06);
   transition: display 0.5s ease;
   -webkit-transition: display 0.5s ease;
-    border-radius: 40px;
+    border-radius: 5px;
   -moz-transition: display 0.5s ease;
   -o-transition: display 0.5s ease;
 }
