@@ -2,14 +2,9 @@
 * {
   margin: 0;
   padding: 0;
+  background: #283a48;
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
-}
-
-.body {
- margin:0;
- padding:0;
- background: #283a48;
 }
 
 .absolute-center {
