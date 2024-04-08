@@ -128,7 +128,7 @@ body::-webkit-scrollbar-thumb,
   justify-content: space-between;
   padding: 10px 15px;
   color: #fff;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
 }
