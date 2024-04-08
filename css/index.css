@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb,
 }
 .bubbly-button:active {
   transform: scale(0.9);
-  background-color: #cbe4f7;
+  background-color: #707e89;
   box-shadow: 0 2px 25px rgb(203, 228, 247);
 }
 
@@ -614,7 +614,7 @@ body {
     margin-bottom: 40px;
   }
   body main .search-container form input {
-    border: 4px solid #cbe4f7;
+    border: 4px solid #707e89;
     border-radius: 10px;
     width: 100%;
     padding: 0 10px;
@@ -663,7 +663,7 @@ body {
     width: 34px;
     height: 34px;
     border-radius: 34px;
-    background: #cbe4f7;
+    background: #707e89;
     color: #283a48;
   }
   body main section.guide .step-card p {
@@ -819,7 +819,7 @@ body {
     flex-wrap: wrap;
   }
   body main .search-container form input {
-    border: 4px solid #cbe4f7;
+    border: 4px solid #707e89;
     border-radius: 35px;
     width: 100%;
     height: 60px;
@@ -862,7 +862,7 @@ body {
     width: 34px;
     height: 34px;
     border-radius: 34px;
-    background: #cbe4f7;
+    background: #707e89;
     color: #283a48;
   }
   body main section.guide .step-card p {
