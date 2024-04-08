@@ -1,0 +1,42 @@
+body.dark {
+    background-color: colors(dark_main);
+    color: colors(dark_text);
+
+    a {
+        color: colors(dark_text);
+    }
+
+    .search-container {
+        background-color: colors(dark_sec);
+        box-shadow:
+            10px 10px 10px #171717,
+            -10px -10px 10px #000000;
+
+        input {
+            background-color: #121212;
+            color: #fff;
+        }
+    }
+
+    .section-faq .collapsible {
+        background-color: #121212;
+    }
+
+    footer {
+        background-color: #000;
+    }
+
+    .contactForm {
+        background-color: colors(dark_main) !important;
+
+        h2 {
+            color: colors(dark_text) !important;
+        }
+
+        input,
+        textarea {
+            background-color: colors(dark_sec) !important;
+            color: #fff !important;
+        }
+    }
+}

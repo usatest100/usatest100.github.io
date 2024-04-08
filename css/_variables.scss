@@ -1,0 +1,37 @@
+$colors: (
+  main: #5ab4fb,
+  sec: #cbe4f7,
+  dark_main: #0f0f0f,
+  dark_sec: #272727,
+  dark_text: #f1f1f1
+);
+
+$padding: 10px;
+$border: 1px solid #607d8b;
+$border-radius: 4px;
+$gradient: radial-gradient(49.49% 260.63% at 48.33% 50.51%, #ff8a00 0%, #e52e71 100%);
+$shadow:
+  -4px -4px 12px rgba(217, 217, 217, 0.05),
+  4px 4px 12px rgba(0, 0, 0, 0.15);
+
+@function colors($color-name) {
+  @return map-get($map: $colors, $key: $color-name);
+}
+
+$tablet: 1134px;
+$mobile: 500px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+//******** Fonts ********//
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");

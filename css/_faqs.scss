@@ -1,0 +1,111 @@
+.section-faq {
+    margin-bottom: 40px;
+    .label {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .label h2 {
+        color: colors(main);
+    }
+
+    .label .ln {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .label .ln span {
+        color: colors(main);
+        margin: 0 10px;
+    }
+
+    .label .ln::before,
+    .label .ln::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background: colors(main);
+    }
+}
+
+.faqsItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .icon-container {
+        font-size: 24px;
+    }
+}
+
+.section-faq .box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-faq .box .form {
+    width: 100%;
+    padding: 20px 21px;
+    box-shadow: 12px 24px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.section-faq .faq-list .faq .faq-question {
+    background-color: colors(main);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.section-faq .faq-list .faq .faq-question a {
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-faq .faq-list .faq .faq-question:hover {
+    background-color: colors(main);
+}
+
+.section-faq .collapsible {
+    padding: 20px;
+    border: 1px solid #d6d1d4;
+    background-color: white;
+    box-shadow: 12px 24px 50px 0 rgba(0, 0, 0, 0.06);
+    transition: display 0.5s ease;
+    -webkit-transition: display 0.5s ease;
+    -moz-transition: display 0.5s ease;
+    -o-transition: display 0.5s ease;
+}
+
+.section-faq .collapsible .hidden {
+    display: none;
+    -webkit-transition: display 0.5s ease;
+    -moz-transition: display 0.5s ease;
+    -o-transition: display 0.5s ease;
+}
