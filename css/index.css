@@ -65,7 +65,7 @@ body::-webkit-scrollbar-track,
 }
 body::-webkit-scrollbar-thumb,
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #5ab4fb;
+  background-color: #283a48;
 }
 
 .section-faq {
@@ -79,14 +79,14 @@ body::-webkit-scrollbar-thumb,
   margin: 20px 0;
 }
 .section-faq .label h2 {
-  color: #5ab4fb;
+  color: #283a48;
 }
 .section-faq .label .ln {
   display: flex;
   align-items: center;
 }
 .section-faq .label .ln span {
-  color: #5ab4fb;
+  color: #283a48;
   margin: 0 10px;
 }
 .section-faq .label .ln::before,
@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb,
   display: block;
   width: 60px;
   height: 4px;
-  background: #5ab4fb;
+  background: #283a48;
 }
 
 .faqsItem {
@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb,
 }
 
 .section-faq .faq-list .faq .faq-question {
-  background-color: #5ab4fb;
+  background-color: #283a48;
   min-height: 50px;
   display: flex;
   align-items: center;
@@ -142,7 +142,7 @@ body::-webkit-scrollbar-thumb,
 }
 
 .section-faq .faq-list .faq .faq-question:hover {
-  background-color: #5ab4fb;
+  background-color: #283a48;
 }
 
 .section-faq .collapsible {
@@ -192,7 +192,7 @@ section.contact-container {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #5ab4fb;
+  background: #283a48;
 
 }
 section.contact-container .container {
@@ -207,7 +207,7 @@ section.contact-container .container .contactInfo {
   top: 40px;
   width: 350px;
   height: calc(100% - 80px);
-  background: #5ab4fb;
+  background: #283a48;
   z-index: 1;
   padding: 40px;
   border-radius: 20px;
@@ -325,13 +325,13 @@ section.contact-container .container .contactForm .formBox .inputBox textarea:va
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #5ab4fb;
+  color: #283a48;
   font-weight: 500;
 }
 section.contact-container .container .contactForm .formBox .inputBox input[type=submit] {
   position: relative;
   cursor: pointer;
-  background: #5ab4fb;
+  background: #283a48;
   color: #fff;
   border-radius: 40px;
   border: none;
@@ -455,7 +455,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 20px 0 20px 35px;
-  border-color: transparent transparent transparent #5ab4fb;
+  border-color: transparent transparent transparent #283a48;
   animation: text-pulse 1s ease infinite;
   margin: 0 auto;
 }
@@ -468,7 +468,7 @@ body {
 .preloader-container .preloader .bars-container .bar {
   width: 15px;
   height: 60px;
-  background: #5ab4fb;
+  background: #283a48;
   border-radius: 10px;
   animation: music-waves 1s ease infinite;
 }
@@ -545,7 +545,7 @@ body {
     list-style: none;
   }
   body header nav ul a.active, body header nav ul a:hover {
-    color: #5ab4fb;
+    color: #283a48;
     font-weight: bold;
   }
   body header nav ul a.active:after, body header nav ul a:hover:after {
@@ -553,7 +553,7 @@ body {
     display: block;
     width: 100%;
     height: 4px;
-    background: #5ab4fb;
+    background: #283a48;
   }
   body header .mode {
     width: 100px;
@@ -620,12 +620,12 @@ body {
     padding: 0 10px;
   }
   body main .search-container form input:hover, body main .search-container form input:focus {
-    border: 4px solid #5ab4fb !important;
+    border: 4px solid #283a48 !important;
   }
   body main .search-container form button {
     border-radius: 35px;
     height: 100%;
-    background: #5ab4fb;
+    background: #283a48;
     color: #fff;
     width: 200px;
     font-weight: bold;
@@ -664,7 +664,7 @@ body {
     height: 34px;
     border-radius: 34px;
     background: #cbe4f7;
-    color: #5ab4fb;
+    color: #283a48;
   }
   body main section.guide .step-card p {
     text-align: center;
@@ -745,7 +745,7 @@ body {
     justify-content: space-between;
   }
   body header nav ul a.active, body header nav ul a:hover {
-    color: #5ab4fb;
+    color: #283a48;
     font-weight: bold;
   }
   body header nav ul a.active:after, body header nav ul a:hover:after {
@@ -753,7 +753,7 @@ body {
     display: block;
     width: 100%;
     height: 4px;
-    background: #5ab4fb;
+    background: #283a48;
   }
   body header .mode {
     width: 34px;
@@ -826,13 +826,13 @@ body {
     padding: 0 10px;
   }
   body main .search-container form input:hover, body main .search-container form input:focus {
-    border: 4px solid #5ab4fb !important;
+    border: 4px solid #283a48 !important;
   }
   body main .search-container form button {
     border-radius: 35px;
     height: 60px;
     width: 100%;
-    background: #5ab4fb;
+    background: #283a48;
     color: #fff;
     font-weight: bold;
     font-size: 20px;
@@ -863,7 +863,7 @@ body {
     height: 34px;
     border-radius: 34px;
     background: #cbe4f7;
-    color: #5ab4fb;
+    color: #283a48;
   }
   body main section.guide .step-card p {
     text-align: center;
