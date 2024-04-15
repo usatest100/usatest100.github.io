@@ -1,47 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="720" height="418" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 706.45 476.51">
+<svg width="720" height="418" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 694.61 445.44">
   <defs>
     <style>
       .cls-1 {
-        font-size: 131.1px;
-      }
-
-      .cls-2, .cls-3 {
-        fill: #283a48;
-      }
-
-      .cls-2, .cls-4 {
-        font-family: MyanmarText-Bold, 'Myanmar Text';
         font-weight: 700;
       }
 
-      .cls-5 {
-        font-family: MyanmarText, 'Myanmar Text';
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
       }
 
-      .cls-5, .cls-4 {
+      .cls-1, .cls-3 {
+        font-size: 129.48px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #283a48;
+      }
+
+      .cls-4, .cls-6 {
+        font-family: LeelawadeeUI-Bold, 'Leelawadee UI';
+      }
+
+      .cls-7 {
+        font-family: Dubai-Bold, Dubai;
+      }
+
+      .cls-7, .cls-3, .cls-6 {
         fill: #000;
       }
 
-      .cls-3 {
+      .cls-5 {
         stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-family: Dubai-Light, Dubai;
+        font-weight: 300;
       }
     </style>
   </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <g id="Layer_2" data-name="Layer 2">
-      <g id="Layer_2-2" data-name="Layer 2-2">
-        <g>
-          <path class="cls-3" d="M107.97,163.99c0-10.4-.14-20.79.04-31.19.26-15.49,11.93-27.16,27.04-27.31,15.47-.17,27.68,11.48,27.89,27.27.27,20.79.24,41.61.01,62.4-.17,15.78-12.35,27.91-27.49,27.93-15.09.04-27.24-12.2-27.46-27.88-.17-10.4-.04-20.81-.04-31.2h0Z"/>
-          <path class="cls-3" d="M545.77,73.14c0-10.4-.12-20.81.02-31.2.23-15.57,12.59-27.87,27.63-27.7,14.78.14,27.09,12.2,27.29,27.43.27,21.04.26,42.1,0,63.13-.2,15.66-12.59,27.3-28.1,27.05-15.13-.24-26.64-11.94-26.83-27.5-.13-10.4-.02-20.79-.02-31.19h0Z"/>
-          <path class="cls-3" d="M354.42,77.65h0c15.23,0,27.57,12.35,27.57,27.57v53.26c0,15.23-12.35,27.57-27.57,27.57h0c-15.23,0-27.57-12.35-27.57-27.57v-53.26c0-15.23,12.35-27.57,27.57-27.57Z"/>
-          <path class="cls-3" d="M491.45,164c.01,23.72.12,47.44-.04,71.16-.08,13.29-7.26,23.53-18.68,27.49-10.48,3.63-23.03.89-29.46-8.23-3.66-5.2-6.51-12.25-6.59-18.51-.53-47.68-.38-95.37-.26-143.05.04-16.67,11.64-28.52,27.33-28.52s27.43,11.94,27.62,28.49c.26,23.71.07,47.44.08,71.16h0Z"/>
-          <path class="cls-3" d="M272.3,100.28c0,23.24.04,46.48-.01,69.72-.04,17.64-11.44,29.85-27.65,29.74-15.8-.11-27.38-12.42-27.41-29.44-.05-46.97-.07-93.93,0-140.89C217.26,12.34,228.83.1,244.68,0c15.83-.09,27.53,12.15,27.57,29.13.09,23.7.02,47.43.04,71.15h.01Z"/>
-        </g>
-      </g>
-    </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-5" x="100.8" y="46.68" width="55.22" height="117.6" rx="21.19" ry="21.19"/>
+    <rect class="cls-5" x="210.08" y="0" width="55.11" height="199.72" rx="21.19" ry="21.19"/>
+    <rect class="cls-5" x="319.73" y="77.65" width="55.15" height="108.41" rx="21.19" ry="21.19"/>
+    <rect class="cls-5" x="429.19" y="64.35" width="54.94" height="199.84" rx="21.19" ry="21.19"/>
+    <rect class="cls-5" x="538.65" y="14.36" width="55.15" height="117.49" rx="21.19" ry="21.19"/>
   </g>
   <g id="Layer_3" data-name="Layer 3">
-    <text class="cls-1" transform="translate(0 378.82)"><tspan class="cls-4" x="0" y="0">MP</tspan><tspan class="cls-2" x="206" y="0">3</tspan><tspan class="cls-4" x="281.4" y="0"> </tspan><tspan class="cls-5" x="317.57" y="0">JUICES</tspan></text>
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(14.63 373.06)"><tspan class="cls-6" x="0" y="0">MP</tspan><tspan class="cls-4" x="203.45" y="0">3</tspan><tspan class="cls-7" x="277.92" y="0"> </tspan></text>
+      <text class="cls-3" transform="translate(297.41 373.06)"><tspan x="0" y="0">JUICES</tspan></text>
+    </g>
   </g>
 </svg>
