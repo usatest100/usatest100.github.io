@@ -47,7 +47,7 @@ function generateIframe(event) {
   var apiUrl =
     "https://apiYouTube.cc/?url=" +
     encodeURIComponent(YouTubeUrl) +
-    "&color=5ab4fb";
+    "&color=283a48";
   iframe.src = apiUrl;
 
   // Clear previous iframe content
